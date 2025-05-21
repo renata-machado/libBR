@@ -1,16 +1,25 @@
-# LibBR
+# 🇧🇷 LibBR
 
-**LibBR** é uma biblioteca simples de interface gráfica em Python, inspirada no estilo do PySimpleGUI, mas feita com Tkinter e 100% brasileira! 🇧🇷
+**LibBR** é uma biblioteca de interface gráfica em Python, inspirada no estilo do [PySimpleGUI](https://pysimplegui.readthedocs.io/en/latest/), mas feita com `Tkinter`.
 
-## Exemplo de uso
+O objetivo é permitir que qualquer pessoa consiga criar interfaces gráficas de maneira **fácil**, **moderna** e **em português** — ideal para estudantes, projetos simples e desenvolvedores que desejam prototipar interfaces rapidamente.
 
-```python
-from libbr.core import Janela
-from libbr.widgets import Texto, Botao
+---
 
-janela = Janela("Minha Janela", [
-    [Texto("Bem-vindo à LibBR!")],
-    [Botao("Clique!", lambda: print("Clicou!"))]
-])
+## ✨ Por que usar a LibBR?
 
-janela.iniciar()
+- Código em português 🇧🇷  
+- Sintaxe simples e intuitiva  
+- Baseada em `Tkinter` (nativo no Python)  
+- Criação de layouts com listas aninhadas  
+- Atribuição de chaves para acesso rápido aos valores  
+- Ideal para aprendizado e prototipagem
+
+---
+
+## 📦 Instalação
+
+Você pode instalar diretamente via PyPI:
+
+```bash
+pip install libbr
