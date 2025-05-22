@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='libbr',
-    version='0.1.0',
+    version='0.1.1',
     author='Renata Machado Barreto Braga',
     description='Uma biblioteca gráfica simples e brasileira, estilo PySimpleGUI.',
     packages=find_packages(),
