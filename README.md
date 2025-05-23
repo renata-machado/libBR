@@ -1,4 +1,4 @@
-<img src="img/libBR.jpg" alt="Logo da LibBR" width="300"/>
+<img src="img/libBR.svg" alt="Logo da LibBR" width="300"/>
 
 **LibBR** é uma biblioteca de interface gráfica em Python, inspirada no estilo do [PySimpleGUI](https://pysimplegui.readthedocs.io/en/latest/), mas feita com `Tkinter`.
 
